@@ -3,3 +3,34 @@ body {
     display: block;
     height: 100vh;
 }
+
+.section {
+    background-color: #F7F7F7;
+    width: 60vw;
+    min-width: 350px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.github-link {
+    color: white;
+    background-color: #121212;
+    padding: 10px;
+    border-radius: 1000px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    overflow: hidden;
+}
